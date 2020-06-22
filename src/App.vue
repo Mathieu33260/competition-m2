@@ -1,20 +1,7 @@
 <template>
-  <div id="app" style="background-color: #353a40">
+  <div id="app">
     <Navbar></Navbar>
     <router-view></router-view>
-    <div style="background-color: black; color: white">
-      <b-row class="p-5">
-        <b-col lg="4" sm="*" class="d-flex justify-content-around">
-          Contact
-        </b-col>
-        <b-col lg="4" sm="*" class="d-flex justify-content-around">
-          Mentions Légales
-        </b-col>
-        <b-col lg="4" sm="*" class="d-flex justify-content-around">
-          Plan du site
-        </b-col>
-      </b-row>
-    </div>
   </div>
 </template>
 
@@ -30,5 +17,13 @@ export default {
 </script>
 
 <style>
+  @import './assets/style/main.css';
 
+  .img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
 </style>

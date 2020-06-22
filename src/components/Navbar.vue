@@ -1,30 +1,39 @@
 <template>
-    <b-navbar toggleable="lg" type="dark" style="background-color: black">
-        <b-navbar-nav>
+    <b-row>
+        <b-col cols="6" style="border-right: 10px solid #65FFF9;">
+            <img src="../assets/logocentre.png" style="height: 80px; margin-left: 140px; margin-top: 50px"/>
+        </b-col>
 
-            <b-navbar-brand to="/">Le Centre</b-navbar-brand>
-
-        </b-navbar-nav>
-
-        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
-        <b-collapse id="nav-collapse" is-nav>
-            <b-navbar-nav class="ml-auto">
-                <b-navbar-brand class="mr-5" to="/expo">Expositions</b-navbar-brand>
-                <b-navbar-brand class="mr-5" to="/visite">Votre visite</b-navbar-brand>
-                <b-button variant="light" pill class="mr-5" to="/billeterie">Billeterie</b-button>
-                <b-nav-item-dropdown class="mr-5" right>
-                    <!-- Using 'button-content' slot -->
-                    <template v-slot:button-content>
-                        <span style="color: white">Vous êtes</span>
-                    </template>
-                    <b-dropdown-item href="#">En famille</b-dropdown-item>
-                    <b-dropdown-item href="#">En situation de handicap</b-dropdown-item>
-                    <b-dropdown-item href="#">Un professionnel</b-dropdown-item>
-                </b-nav-item-dropdown>
-            </b-navbar-nav>
-        </b-collapse>
-    </b-navbar>
+        <b-col cols="6">
+            <div class="d-flex flex-column" style="margin-right: 100px">
+                <div class="d-flex justify-content-end" style="margin-top: 44px;">
+                    <div style="margin-left: 42px">
+                        Vous êtes
+                    </div>
+                    <div style="margin-left: 42px">
+                        Rechercher
+                    </div>
+                    <div style="margin-left: 42px">
+                        EN|<b>FR</b>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end" style="margin-top: 15px">
+                    <div style="margin-left: 42px">
+                        <b>Expositions</b>
+                    </div>
+                    <div style="margin-left: 42px">
+                        <b>Visite</b>
+                    </div>
+                    <div style="margin-left: 42px">
+                        <b>Le Centre</b>
+                    </div>
+                    <div style="margin-left: 42px">
+                        <b style="background-color: #65FFF9">Billeterie</b>
+                    </div>
+                </div>
+            </div>
+        </b-col>
+    </b-row>
 </template>
 
 <script>

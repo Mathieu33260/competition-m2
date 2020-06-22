@@ -2,7 +2,7 @@
     <div>
         <b-card
                 overlay
-                img-src="https://picsum.photos/1024/480/?image=1004"
+                img-src="https://picsum.photos/1024/350/?image=1004"
                 text-variant="white"
                 style="border: 0"
                 class=""
@@ -30,7 +30,7 @@
 
         <b-card
                 overlay
-                img-src="https://picsum.photos/1024/480/?image=1019"
+                img-src="https://picsum.photos/1024/350/?image=1019"
                 text-variant="white"
                 style="border: 0"
                 class=""
@@ -58,7 +58,7 @@
 
         <b-card
                 overlay
-                img-src="https://picsum.photos/1024/480/?image=1042"
+                img-src="https://picsum.photos/1024/350/?image=1042"
                 text-variant="white"
                 style="border: 0"
                 class=""
