@@ -49,7 +49,7 @@
             </b-col>
         </b-row>
 
-        <b-row style="position:relative; height: 250px">
+        <b-row style="position:relative; height: 250px" class="mb-5">
             <b-col cols="8" class="d-flex justify-content-end">
                 <b class="align-self-end" style="font: Bold 60px Gotham; line-height: 60px">Dernières actualités</b>
             </b-col>
@@ -59,19 +59,75 @@
             </b-col>
         </b-row>
 
-        <b-row>
-            <b-col cols="4">
-                <div>
-                    
+        <b-row class="mt-5 ml-5 mr-5 d-flex justify-content-between">
+            <b-col cols="3" class="d-flex flex-column justify-content-between">
+                <img src="../assets/Legendes_urbainesph_F_Deval_34_format_a5.png" style="width: 100%; height: auto">
+                <b class="mt-3" style="color: #65FFF9">#<span style="font: Bold 20px/22px Gotham; color: #C4C4C4;">Redécouvrir</span></b>
+                <div class="mt-3" style="font: Bold 20px/22px Gotham;">
+                    Visite virtuelle de l'exposition
+                </div>
+                <div class="mt-3">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </div>
+                <input class="mt-3" type="button" style="background-color: #65FFF9; width: 50%; font: Bold 16px Gotham; border: 0; height: 40px" value="Découvrir">
+            </b-col>
+
+            <b-col cols="3" class="d-flex flex-column justify-content-between">
+                <img src="../assets/Legendes_urbainesph_F_Deval_34_format_a5.png" style="width: 100%; height: auto">
+                <b class="mt-3" style="color: #65FFF9">#<span style="font: Bold 20px/22px Gotham; color: #C4C4C4;">Redécouvrir</span></b>
+                <div class="mt-3" style="font: Bold 20px/22px Gotham;">
+                    Visite virtuelle de l'exposition
+                </div>
+                <div class="mt-3">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </div>
+                <input class="mt-3" type="button" style="background-color: #65FFF9; width: 50%; font: Bold 16px Gotham; border: 0; height: 40px" value="Découvrir">
+            </b-col>
+
+            <b-col cols="3" class="d-flex flex-column justify-content-between">
+                <img src="../assets/Legendes_urbainesph_F_Deval_34_format_a5.png" style="width: 100%; height: auto">
+                <b class="mt-3" style="color: #65FFF9">#<span style="font: Bold 20px/22px Gotham; color: #C4C4C4;">Redécouvrir</span></b>
+                <div class="mt-3" style="font: Bold 20px/22px Gotham;">
+                    Visite virtuelle de l'exposition
+                </div>
+                <div class="mt-3">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </div>
+                <input class="mt-3" type="button" style="background-color: #65FFF9; width: 50%; font: Bold 16px Gotham; border: 0; height: 40px" value="Découvrir">
+            </b-col>
+        </b-row>
+
+        <b-row class="ml-5">
+            <b-col cols="12">
+                <div style="border-left: 10px solid #65FFF9; height: 150px">
+
                 </div>
             </b-col>
+        </b-row>
 
-            <b-col cols="4">
-
+        <b-row>
+            <b-col cols="6">
+                <img src="../assets/espace_dexposition_ph_F_.deval_0_format_a5.png" style="width: 100%"/>
             </b-col>
 
-            <b-col cols="4">
-
+            <b-col cols="6" class="d-flex flex-column justify-content-center">
+                <div>
+                    <div style="font: Bold 60px/66px Gotham;">
+                        Préparer sa visite au Centre
+                    </div>
+                    <div class="mb-3">
+                        <span style="color: #65FFF9">01.</span> <b>Réserver ses billets en ligne</b>
+                    </div>
+                    <div class="mb-3">
+                        <span style="color: #65FFF9">02.</span> <b>Choisir l’option classique, groupe et/ou immersive (lunettes connectées)</b>
+                    </div>
+                    <div class="mb-3">
+                        <span style="color: #65FFF9">03.</span> <b>Profiter du cadre insolite du musée et de l’exposition</b>
+                    </div>
+                    <div class="mb-5">
+                        <span style="color: #65FFF9">04.</span> <b>Redécouvrir plus tard l’exposition virtuelle en ligne</b>
+                    </div>
+                </div>
             </b-col>
         </b-row>
     </div>
