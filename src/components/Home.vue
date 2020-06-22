@@ -61,7 +61,9 @@
 
         <b-row>
             <b-col cols="4">
-
+                <div>
+                    
+                </div>
             </b-col>
 
             <b-col cols="4">
