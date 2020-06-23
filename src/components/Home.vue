@@ -69,7 +69,7 @@
                 <div class="mt-3">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </div>
-                <input class="mt-3" type="button" style="background-color: #65FFF9; width: 50%; font: Bold 16px Gotham; border: 0; height: 40px" value="Découvrir">
+                <input class="mt-3" type="button" style="background-color: #65FFF9; width: 50%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Découvrir">
             </b-col>
 
             <b-col cols="3" class="d-flex flex-column justify-content-between">
@@ -81,7 +81,7 @@
                 <div class="mt-3">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </div>
-                <input class="mt-3" type="button" style="background-color: #65FFF9; width: 50%; font: Bold 16px Gotham; border: 0; height: 40px" value="Découvrir">
+                <input class="mt-3" type="button" style="background-color: #65FFF9; width: 50%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Découvrir">
             </b-col>
 
             <b-col cols="3" class="d-flex flex-column justify-content-between">
@@ -93,7 +93,7 @@
                 <div class="mt-3">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </div>
-                <input class="mt-3" type="button" style="background-color: #65FFF9; width: 50%; font: Bold 16px Gotham; border: 0; height: 40px" value="Découvrir">
+                <input class="mt-3" type="button" style="background-color: #65FFF9; width: 50%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Découvrir">
             </b-col>
         </b-row>
 
@@ -128,9 +128,49 @@
                         <span style="color: #65FFF9">04.</span> <b>Redécouvrir plus tard l’exposition virtuelle en ligne</b>
                     </div>
                     <div style="width: 20%; height: 100%; border-right: 10px solid #65FFF9;">
-                        <input type="button" style="background-color: #65FFF9; width: 100%; font: Bold 16px Gotham; border: 0; height: 40px;" value="Billeterie">
+                        <input type="button" style="background-color: #65FFF9; width: 100%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Billeterie">
                     </div>
                 </div>
+            </b-col>
+        </b-row>
+
+        <b-row class="mt-5">
+            <b-col cols="8" class="pr-0">
+                <GmapMap
+                        :center="{lat:44.870659, lng:-0.558953}"
+                        :zoom="15"
+                        map-type-id="terrain"
+                        style="width: 100%; height: 300px"
+                        :options="{
+                           backgroundColor: 'black'
+                         }"
+                >
+
+                </GmapMap>
+            </b-col>
+
+            <b-col cols="4" style="background-color: #65FFF9;" class="d-flex flex-column justify-content-around pl-5">
+
+                <div>
+                    <div style="font: Bold 40px/50px Gotham;">
+                        Accès
+                    </div>
+                    <div style="font: Bold 16px/26px Gotham;">
+                        Tram B : Cité du Vin + Marche <br>
+                        Bus Arrêt : Base sous Marine
+                    </div>
+                </div>
+
+                <div>
+                    <div style="font: Bold 40px/50px Gotham;">
+                        Horaires
+                    </div>
+                    <div style="font: Bold 16px/26px Gotham;">
+                        Mardi au Dimanche <br>
+                        13h30 - 19h
+                    </div>
+                </div>
+
             </b-col>
         </b-row>
     </div>
