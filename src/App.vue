@@ -2,6 +2,9 @@
   <div id="app">
     <Navbar></Navbar>
     <router-view></router-view>
+    <b-row style="background-color: black; height: 200px">
+
+    </b-row>
   </div>
 </template>
 

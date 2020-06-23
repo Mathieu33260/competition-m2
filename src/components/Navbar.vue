@@ -1,7 +1,9 @@
 <template>
     <b-row>
         <b-col cols="6" style="border-right: 10px solid #65FFF9;">
-            <img src="./../assets/logocentre.png" style="height: 80px; margin-left: 140px; margin-top: 50px"/>
+            <img src="./../assets/logocentre.png" style="height: 80px; margin-left: 140px; margin-top: 50px; cursor: pointer"
+                @click="$router.push('/')"
+            />
         </b-col>
 
         <b-col cols="6">
@@ -19,7 +21,7 @@
                 </div>
                 <div class="d-flex justify-content-end" style="margin-top: 15px">
                     <div style="margin-left: 42px">
-                        <b>Expositions</b>
+                        <b style="cursor: pointer" @click="$router.push('/expo')">Expositions</b>
                     </div>
                     <div style="margin-left: 42px">
                         <b>Visite</b>
@@ -38,7 +40,11 @@
 
 <script>
     export default {
-        name: "Navbar"
+        name: "Navbar",
+
+        methods: {
+
+        }
     }
 </script>
 
