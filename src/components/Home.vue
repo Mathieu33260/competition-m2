@@ -3,10 +3,6 @@
         <b-row>
             <b-col cols="6">
                 <img src="../assets/home1.png" draggable="false" style="width: 100%; margin-top: 40px;">
-                <div class="d-flex justify-content-end" style="margin-top: 30px;">
-                    <img src="../assets/clock.svg" draggable="false" class="mr-2">
-                    <b>Le musée est ouvert de 11h à 19h aujourd’hui</b>
-                </div>
             </b-col>
 
             <b-col cols="6">
