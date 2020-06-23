@@ -1,51 +1,67 @@
 <template>
     <div>
-        <b-carousel
-                id="carousel-fade"
-                style="text-shadow: 0px 0px 2px #000"
-                fade
-                img-width="1024"
-                img-height="350"
-                :interval="2000"
-        >
-            <b-carousel-slide
-                    caption="Expérience unique grâce aux lunettes"
-                    img-src="https://picsum.photos/1024/350/?image=10"
-            ></b-carousel-slide>
-            <b-carousel-slide
-                    caption="Expérience unique grâce aux lunettes"
-                    img-src="https://picsum.photos/1024/350/?image=12"
-            ></b-carousel-slide>
-            <b-carousel-slide
-                    caption="Expérience unique grâce aux lunettes"
-                    img-src="https://picsum.photos/1024/350/?image=22"
-            ></b-carousel-slide>
-        </b-carousel>
-        <div>
-            <div id="map"></div>
-        </div>
+
+        <b-row class="mt-5">
+            <b-col cols="12" class="mt-5">
+                <img src="../assets/visite.png" draggable="false" style="width: 100%"/>
+            </b-col>
+        </b-row>
+
+        <b-row class="d-flex justify-content-center">
+            <b-col cols="7" style="height: 200px; border-right: 10px solid #65FFF9;">
+
+            </b-col>
+        </b-row>
+
+        <b-row>
+            <b-col cols="6" class="d-flex justify-content-center">
+
+                <div style="width: 80%">
+                    <div style="font: Bold 20px/22px Gotham;" class="mt-4">
+                        Des lunettes connectées, pour une immersion totale dans l’univers de l’artiste
+                    </div>
+
+                    <div class="mt-4" style="font-size: 80%">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    </div>
+
+                    <div class="mt-5 d-flex flex-column justify-content-between" style="width: 60%; height: 50%; border-left: 10px solid #65FFF9;">
+                        <input type="button" style="background-color: #65FFF9; width: 100%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Essayer l’expérience immersive">
+                        <div class="ml-1" style="font: Bold 16px/22px Gotham;">
+                            2 options pour un confort maximal
+                        </div>
+                    </div>
+                </div>
+
+            </b-col>
+
+            <b-col cols="6" class="d-flex justify-content-center">
+                <div style="width: 90%;">
+                    <img src="../assets/videovisite.png" style="width: 100%; height: auto"/>
+                </div>
+            </b-col>
+        </b-row>
+
+        <b-row style="margin-top: 100px">
+            <b-col cols="12" class="mt-5">
+                <img src="../assets/visiteend.png" draggable="false" style="width: 100%" class="mt-5"/>
+            </b-col>
+        </b-row>
+
+        <b-row>
+            <b-col cols="6" style="height: 200px; border-right: 10px solid #65FFF9;">
+
+            </b-col>
+        </b-row>
     </div>
 </template>
 
 <script>
     export default {
         name: "Visite",
-
-        mounted() {
-            var uluru = {lat: -25.344, lng: 131.036};
-            // The map, centered at Uluru
-            var map = new google.maps.Map(
-                document.getElementById('map'), {zoom: 4, center: uluru});
-            // The marker, positioned at Uluru
-            var marker = new google.maps.Marker({position: uluru, map: map});
-        }
     }
 </script>
 
 <style scoped>
-    #map {
-        width: 100%;
-        height: 400px;
-        background-color: grey;
-    }
+
 </style>

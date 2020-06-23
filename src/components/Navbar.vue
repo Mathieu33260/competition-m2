@@ -24,7 +24,7 @@
                         <b style="cursor: pointer" @click="$router.push('/expo')">Expositions</b>
                     </div>
                     <div style="margin-left: 42px">
-                        <b>Visite</b>
+                        <b style="cursor: pointer" @click="$router.push('/visite')">Visite</b>
                     </div>
                     <div style="margin-left: 42px">
                         <b>Le Centre</b>
