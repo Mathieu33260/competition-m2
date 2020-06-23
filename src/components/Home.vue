@@ -51,10 +51,10 @@
 
         <b-row style="position:relative; height: 250px" class="mb-5">
             <b-col cols="8" class="d-flex justify-content-end">
-                <b class="align-self-end" style="font: Bold 60px Gotham; line-height: 60px">Dernières actualités</b>
+                <b class="align-self-end" style="font: Bold 60px Gotham; line-height: 150px">Dernières actualités</b>
             </b-col>
 
-            <b-col cols="3" style="border-right: 10px solid #65FFF9; border-bottom: 10px solid #65FFF9; bottom: 15%; height: 110%; margin-right: 30px;">
+            <b-col cols="3" style="border-right: 10px solid #65FFF9; border-bottom: 10px solid #65FFF9; bottom: 35%; height: 110%; margin-right: 30px;">
 
             </b-col>
         </b-row>
@@ -110,7 +110,7 @@
                 <img src="../assets/espace_dexposition_ph_F_.deval_0_format_a5.png" style="width: 100%"/>
             </b-col>
 
-            <b-col cols="6" class="d-flex flex-column justify-content-center">
+            <b-col cols="6" class="d-flex flex-column justify-content-center" >
                 <div>
                     <div style="font: Bold 60px/66px Gotham;">
                         Préparer sa visite au Centre
@@ -126,6 +126,9 @@
                     </div>
                     <div class="mb-5">
                         <span style="color: #65FFF9">04.</span> <b>Redécouvrir plus tard l’exposition virtuelle en ligne</b>
+                    </div>
+                    <div style="width: 20%; height: 100%; border-right: 10px solid #65FFF9;">
+                        <input type="button" style="background-color: #65FFF9; width: 100%; font: Bold 16px Gotham; border: 0; height: 40px;" value="Billeterie">
                     </div>
                 </div>
             </b-col>
