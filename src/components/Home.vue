@@ -69,10 +69,10 @@
             </b-col>
 
             <b-col cols="3" class="d-flex flex-column justify-content-between">
-                <img src="../assets/Legendes_urbainesph_F_Deval_34_format_a5.png" style="width: 100%; height: auto">
-                <b class="mt-3" style="color: #65FFF9">#<span style="font: Bold 20px/22px Gotham; color: #C4C4C4;">Redécouvrir</span></b>
+                <img src="../assets/baloji-ouve.png" style="width: 100%; height: auto">
+                <b class="mt-3" style="color: #65FFF9">#<span style="font: Bold 20px/22px Gotham; color: #C4C4C4;">ZoomSur</span></b>
                 <div class="mt-3" style="font: Bold 20px/22px Gotham;">
-                    Visite virtuelle de l'exposition
+                    Baloji
                 </div>
                 <div class="mt-3">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -81,10 +81,10 @@
             </b-col>
 
             <b-col cols="3" class="d-flex flex-column justify-content-between">
-                <img src="../assets/Legendes_urbainesph_F_Deval_34_format_a5.png" style="width: 100%; height: auto">
-                <b class="mt-3" style="color: #65FFF9">#<span style="font: Bold 20px/22px Gotham; color: #C4C4C4;">Redécouvrir</span></b>
+                <img src="../assets/Digital_Abysses_Ph_F_Deval_55_format_a5.png" style="width: 100%; height: auto">
+                <b class="mt-3" style="color: #65FFF9">#<span style="font: Bold 20px/22px Gotham; color: #C4C4C4;">Immersion</span></b>
                 <div class="mt-3" style="font: Bold 20px/22px Gotham;">
-                    Visite virtuelle de l'exposition
+                    Visite immersive
                 </div>
                 <div class="mt-3">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -136,7 +136,7 @@
                         :center="{lat:44.870659, lng:-0.558953}"
                         :zoom="15"
                         map-type-id="terrain"
-                        style="width: 100%; height: 300px"
+                        style="width: 100%; height: 400px"
                         :options="{
                            backgroundColor: 'black'
                          }"
@@ -145,26 +145,30 @@
                 </GmapMap>
             </b-col>
 
-            <b-col cols="4" style="background-color: #65FFF9;" class="d-flex flex-column justify-content-around pl-5">
+            <b-col cols="4" style="background-color: #65FFF9;" class="d-flex justify-content-center">
 
-                <div>
+                <div class="d-flex flex-column justify-content-around pt-5 pb-5">
                     <div style="font: Bold 40px/50px Gotham;">
-                        Accès
+                        Adresse
                     </div>
-                    <div style="font: Bold 16px/26px Gotham;">
-                        Tram B : Cité du Vin + Marche <br>
-                        Bus Arrêt : Base sous Marine
+                    <div class="d-flex justify-content-start">
+                        <img src="../assets/pin.svg">
+                        <div style="font: Bold 16px/26px Gotham;" class="ml-2">
+                            Base sous-marine <br>
+                            Boulevard Alfred Daney <br>
+                            33300 Bordeaux
+                        </div>
                     </div>
-                </div>
+                    <div class="d-flex justify-content-start mt-3">
+                        <img src="../assets/phone-call.svg">
+                        <div style="font: Bold 16px/26px Gotham;" class="ml-2 mt-2">
+                            05 56 11 11 50
+                        </div>
+                    </div>
 
-                <div>
-                    <div style="font: Bold 40px/50px Gotham;">
-                        Horaires
-                    </div>
-                    <div style="font: Bold 16px/26px Gotham;">
-                        Mardi au Dimanche <br>
-                        13h30 - 19h
-                    </div>
+                    <input @click="$router.push('/infos')" type="button" style="background-color: white; width: 100%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Informations pratiques">
+
+
                 </div>
 
             </b-col>
