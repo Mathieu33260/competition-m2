@@ -1,7 +1,7 @@
 <template>
     <div>
         <template v-if="countDown > 5">
-            <img src="../assets/sonar-4.gif" style="width: 100%;"/>
+            <img src="../assets/sonar-4.gif" style="width: auto; max-width: 100%; height: auto"/>
         </template>
 
         <template v-else>
