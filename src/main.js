@@ -13,10 +13,12 @@ import Virtuelle from "./components/Virtuelle";
 import * as VueGoogleMaps from 'vue2-google-maps'
 import InfosPratique from "./components/InfosPratique";
 import LeCentre from "./components/LeCentre";
+import ExpoAfrique from "./components/ExpoAfrique";
 
 const routes = [
   { path: '/', component: Home },
   { path: '/expo', component: Expositions },
+  { path: '/expo/1', component: ExpoAfrique },
   { path: '/visite', component: Visite },
   { path: '/centre', component: LeCentre },
   { path: '/infos', component: InfosPratique },

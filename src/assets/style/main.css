@@ -4,3 +4,8 @@
     font-weight: 400;
     src: url('../font/GothamBold.ttf'); /* IE9 Compat Modes */
 }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
