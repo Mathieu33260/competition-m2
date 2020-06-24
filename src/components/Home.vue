@@ -22,7 +22,7 @@
 
         <b-row>
             <b-col cols="8" style="padding-right: 0;">
-                <img src="../assets/chelou2.png" draggable="false" style="width: 100%; user-focus: none;"/>
+                <img src="../assets/chelou2.png" draggable="false" style="width: 100%; user-focus: none;" @click="$router.push('/expo/1')"/>
             </b-col>
 
             <b-col cols="4" style="padding-left: 0;">
@@ -65,7 +65,7 @@
                 <div class="mt-3">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </div>
-                <input class="mt-3" type="button" style="background-color: #65FFF9; width: 50%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Découvrir">
+                <input @click="$router.push('/virtuelle')" class="mt-3" type="button" style="background-color: #65FFF9; width: 50%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Découvrir">
             </b-col>
 
             <b-col cols="3" class="d-flex flex-column justify-content-between">
@@ -77,7 +77,7 @@
                 <div class="mt-3">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </div>
-                <input class="mt-3" type="button" style="background-color: #65FFF9; width: 50%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Découvrir">
+                <input @click="$router.push('/expo/1')" class="mt-3" type="button" style="background-color: #65FFF9; width: 50%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Découvrir">
             </b-col>
 
             <b-col cols="3" class="d-flex flex-column justify-content-between">
@@ -89,7 +89,7 @@
                 <div class="mt-3">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </div>
-                <input class="mt-3" type="button" style="background-color: #65FFF9; width: 50%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Découvrir">
+                <input @click="$router.push('/visite')" class="mt-3" type="button" style="background-color: #65FFF9; width: 50%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Découvrir">
             </b-col>
         </b-row>
 
