@@ -6,7 +6,7 @@
 
         <template v-else>
             <b-row>
-                <img src="../assets/sonarqr.png" style="width: auto; max-width: 100%; height: auto; display: block; object-fit: cover"/>
+                <img src="../assets/sonarqr.png" style="width: auto; max-width: 100%; height: auto; max-height: 80%"/>
             </b-row>
 
             <b-row style="position: relative" class="d-flex justify-content-center">
