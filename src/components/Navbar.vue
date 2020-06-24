@@ -12,7 +12,7 @@
                     </div>
                 </b-col>
 
-                <b-col cols="4" class="d-flex justify-content-end" style="margin-right: 100px">
+                <b-col cols="4" class="d-flex justify-content-end" style="margin-right: 100px;">
                     <div style="margin-left: 42px">
                         Vous êtes
                     </div>
@@ -44,7 +44,7 @@
                         <b style="cursor: pointer" @click="$router.push('/visite')">Visite</b>
                     </div>
                     <div style="margin-left: 42px">
-                        <b>Le Centre</b>
+                        <b style="cursor: pointer" @click="$router.push('/centre')">Le Centre</b>
                     </div>
                     <div style="margin-left: 42px">
                         <b style="background-color: #65FFF9">Billeterie</b>
