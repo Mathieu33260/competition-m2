@@ -1,12 +1,12 @@
 <template>
     <div>
         <template v-if="countDown > 5">
-            <img src="../assets/sonar-4.gif" style="width: 100%"/>
+            <img src="../assets/sonar-4.gif" style="width: 100%;"/>
         </template>
 
         <template v-else>
             <b-row>
-                <img src="../assets/sonarqr.png" style="width: 100%"/>
+                <img src="../assets/sonarqr.png" style="width: 100%; height: auto"/>
             </b-row>
 
             <b-row style="position: relative" class="d-flex justify-content-center">
