@@ -59,6 +59,9 @@
 <script>
     export default {
         name: "Visite",
+        created() {
+            this.$store.commit('setIsSonar', false);
+        },
     }
 </script>
 

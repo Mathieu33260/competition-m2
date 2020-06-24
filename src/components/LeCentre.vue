@@ -77,7 +77,10 @@
 
 <script>
     export default {
-        name: "LeCentre"
+        name: "LeCentre",
+        created() {
+            this.$store.commit('setIsSonar', false);
+        },
     }
 </script>
 

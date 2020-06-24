@@ -131,7 +131,11 @@
 
 <script>
     export default {
-        name: "Expositions"
+        name: "Expositions",
+
+        created() {
+            this.$store.commit('setIsSonar', false);
+        },
     }
 </script>
 

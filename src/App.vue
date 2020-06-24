@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Navbar></Navbar>
+    <Navbar v-if="!$store.state.isSonar"></Navbar>
     <router-view></router-view>
-    <b-row style="border-bottom: 1px solid white; background-color: #65FFF9" class="pt-5 pb-4">
+    <b-row v-if="!$store.state.isSonar" style="border-bottom: 1px solid white; background-color: #65FFF9" class="pt-5 pb-4">
       <b-col cols="4" class="d-flex justify-content-between ml-5">
         <div style="width: 80%">
           <img src="./assets/centrebleu.png" style="width: 100%">
@@ -29,7 +29,7 @@
       </b-col>
     </b-row>
 
-    <b-row style="background-color: #65FFF9" class="pt-5 pb-4">
+    <b-row v-if="!$store.state.isSonar" style="background-color: #65FFF9" class="pt-5 pb-4">
       <b-col cols="4" class="d-flex justify-content-between ml-5">
         <div style="font: Bold 20px/22px Gotham;">
           Base sous-marine <br>

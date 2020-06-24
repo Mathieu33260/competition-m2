@@ -125,7 +125,11 @@
 
 <script>
     export default {
-        name: "ExpoAfrique"
+        name: "ExpoAfrique",
+
+        created() {
+            this.$store.commit('setIsSonar', false);
+        },
     }
 </script>
 

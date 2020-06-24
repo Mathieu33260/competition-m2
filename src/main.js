@@ -14,6 +14,21 @@ import * as VueGoogleMaps from 'vue2-google-maps'
 import InfosPratique from "./components/InfosPratique";
 import LeCentre from "./components/LeCentre";
 import ExpoAfrique from "./components/ExpoAfrique";
+import Vuex from 'vuex'
+import Sonar from "./components/Sonar";
+
+Vue.use(Vuex)
+
+const store = new Vuex.Store({
+  state: {
+    isSonar: false
+  },
+  mutations: {
+    setIsSonar (state, value) {
+      state.isSonar = value
+    }
+  },
+})
 
 const routes = [
   { path: '/', component: Home },
@@ -24,6 +39,7 @@ const routes = [
   { path: '/infos', component: InfosPratique },
   { path: '/billeterie', component: Billeterie },
   { path: '/virtuelle', component: Virtuelle },
+  { path: '/sonar', component: Sonar },
 ]
 
 Vue.use(VueRouter)
@@ -63,5 +79,6 @@ Vue.use(IconsPlugin)
 
 new Vue({
   render: h => h(App),
-  router
+  router,
+  store
 }).$mount('#app')

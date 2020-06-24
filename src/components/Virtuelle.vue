@@ -80,7 +80,10 @@
 
 <script>
     export default {
-        name: "Virtuelle"
+        name: "Virtuelle",
+        created() {
+            this.$store.commit('setIsSonar', false);
+        },
     }
 </script>
 

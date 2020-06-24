@@ -179,11 +179,11 @@
 </template>
 
 <script>
-    import Slide from "./Slide";
-    import Infos from "./Infos";
     export default {
         name: "Home",
-        components: {Infos, Slide}
+        created() {
+            this.$store.commit('setIsSonar', false);
+        },
     }
 </script>
 
