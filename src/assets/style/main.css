@@ -2,8 +2,9 @@
     font-family: 'Gotham';
     font-style: normal;
     font-weight: 400;
-    src: url('../font/GothamBold.ttf'); /* IE9 Compat Modes */
+    src: url('../font/Gotham-Font/GothamBold.ttf') format('truetype');
 }
+
 
 html, body {
     max-width: 100%;
