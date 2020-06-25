@@ -69,49 +69,49 @@
         </b-row>
 
         <b-row class="ml-5 mr-5 d-flex justify-content-between">
-            <b-col cols="4" class="d-flex flex-column justify-content-end p-5">
-                <img src="../assets/Legendes_urbainesph_F_Deval_34_format_a5.png" style="width: 100%; height: auto">
+            <b-col cols="4" class="d-flex flex-column justify-content-between p-5">
+                <img src="../assets/cyrus.png" style="width: 100%; height: auto">
                 <b class="mt-3" style="color: #65FFF9">#<span style="font: Bold 20px/22px Gotham; color: #C4C4C4;">Redécouvrir</span></b>
                 <div class="mt-3" style="font: Bold 20px/22px Gotham;">
-                    Visite virtuelle de l'exposition
+                    Cyrus Kabiru
                 </div>
                 <div class="mt-3">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Né en 1984 à Nairobi, où il vit et travaille, Cyrus Kabiru est un plasticien autodidacte pluridisciplinaire. Son travail oscille entre peinture et sculpture, qu’il réalise principalement à partir de déchets et d’objets trouvés dans les rues de Nairobi.
                 </div>
             </b-col>
 
-            <b-col cols="4" class="d-flex flex-column justify-content-end p-5">
-                <img src="../assets/Legendes_urbainesph_F_Deval_34_format_a5.png" style="width: 100%; height: auto">
-                <b class="mt-3" style="color: #65FFF9">#<span style="font: Bold 20px/22px Gotham; color: #C4C4C4;">Redécouvrir</span></b>
+            <b-col cols="4" class="d-flex flex-column justify-content-between p-5">
+                <img src="../assets/nastio.png" style="width: 100%; height: auto">
+                <b class="mt-3" style="color: #65FFF9">#<span style="font: Bold 20px/22px Gotham; color: #C4C4C4;">Sculpture</span></b>
                 <div class="mt-3" style="font: Bold 20px/22px Gotham;">
-                    Visite virtuelle de l'exposition
+                    Nastio Mosquito
                 </div>
                 <div class="mt-3">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Né en Angola pendant la guerre civile, il nous apprend avoir débuté dans son pays en tant que producteur pour la télévision. "Mais cela ne me suffisait plus", poursuit-il. Alors, quand il apprend l’existence de clubs de spoken words à Luanda, la capitale du pays, il fonce tête baissée, monte sur les planches. Et lorsque se prépare la Triennale d’art dans la capitale angolaise en 2006, il propose une série de photographies où il se met en scène en travesti.
                 </div>
             </b-col>
 
-            <b-col cols="4" class="d-flex flex-column justify-content-end p-5">
-                <img src="../assets/Legendes_urbainesph_F_Deval_34_format_a5.png" style="width: 100%; height: auto">
-                <b class="mt-3" style="color: #65FFF9">#<span style="font: Bold 20px/22px Gotham; color: #C4C4C4;">Redécouvrir</span></b>
+            <b-col cols="4" class="d-flex flex-column justify-content-between p-5">
+                <img src="../assets/omar.png" style="width: 100%; height: auto">
+                <b class="mt-3" style="color: #65FFF9">#<span style="font: Bold 20px/22px Gotham; color: #C4C4C4;">Performance</span></b>
                 <div class="mt-3" style="font: Bold 20px/22px Gotham;">
-                    Visite virtuelle de l'exposition
+                    Omar Victor Diop
                 </div>
                 <div class="mt-3">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Omar Victor Diop commence la photographie en 2012. Autodidacte, il s’inscrit directement dans l’héritage de la photographie de studio africaine (Keïta), un genre dont il investit les codes, souvent par le biais de l’autoportrait. En 2020 il prend part à l’exposition Africa 2020 avec des oeuvres aussi intrigantes les unes que les autres.
                 </div>
             </b-col>
         </b-row>
 
         <b-row class="ml-5 d-flex justify-content-between">
-            <b-col cols="4" class="d-flex flex-column justify-content-end p-5">
-                <img src="../assets/Legendes_urbainesph_F_Deval_34_format_a5.png" style="width: 100%; height: auto">
-                <b class="mt-3" style="color: #65FFF9">#<span style="font: Bold 20px/22px Gotham; color: #C4C4C4;">Redécouvrir</span></b>
+            <b-col cols="4" class="d-flex flex-column justify-content-between p-5">
+                <img src="../assets/balojirappeur.png" style="width: 100%; height: auto">
+                <b class="mt-3" style="color: #65FFF9">#<span style="font: Bold 20px/22px Gotham; color: #C4C4C4;">Rappeur</span></b>
                 <div class="mt-3" style="font: Bold 20px/22px Gotham;">
-                    Visite virtuelle de l'exposition
+                    Baloji
                 </div>
                 <div class="mt-3">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Aujourd’hui, Baloji en est à son troisième album, "137 Avenue Kaniama", voyage au travers des styles qu’il affectionne et ne cesse d’explorer, entre musique traditionnelle africaine et musique afro-américaine (hip-hop, soul, funk, jazz). Il était évident pour nous d’aller à sa rencontre pour parler création artistique, double culture et rap.
                 </div>
             </b-col>
 
