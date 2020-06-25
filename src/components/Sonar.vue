@@ -10,7 +10,7 @@
             <b-row style="position: relative" class="d-flex justify-content-center">
                 <b-col cols="10" style="bottom: 20px">
                     <input @click="$router.push('/infos')" type="button" class="mb-5" style="background-color: #65FFF9; width: 100%; font-size: 18px; font-weight: bold; border: 0; height: 40px;" value="Se rendre au Centre">
-                    <input type="button" style="background-color: #65FFF9; width: 100%; border: 0; height: 40px;" value="Acheter un billet">
+                    <input type="button" style="background-color: #65FFF9; width: 100%; border: 0; height: 40px;" value="test">
                 </b-col>
             </b-row>
         </template>
