@@ -42,7 +42,21 @@
                             <b style="cursor: pointer" @click="$router.push('/expo')">Expositions</b>
                         </div>
                         <div style="margin-left: 42px">
-                            <b style="cursor: pointer" @click="$router.push('/visite')">Visite</b>
+                            <b style="cursor: pointer" @click="visite = !visite">Visite</b>
+                            <div v-if="visite" class="mt-2 pt-2 pl-2" style="background-color: white; border-top: 5px solid #65FFF9; border-left: 5px solid #65FFF9; position: absolute">
+                                <div style="cursor: pointer" @click="changePage('/visite')">
+                                    Visite immersive
+                                </div>
+                                <div style="cursor: pointer" @click="changePage('/virtuelle')" class="mt-2">
+                                    Visite virtuelle
+                                </div>
+                                <div style="cursor: pointer" @click="changePage('/infos')" class="mt-2">
+                                     Tarifs
+                                </div>
+                                <div style="cursor: pointer" class="mt-2">
+                                    Accessibilité
+                                </div>
+                            </div>
                         </div>
                         <div style="margin-left: 42px">
                             <b style="cursor: pointer" @click="$router.push('/centre')">Le Centre</b>
@@ -62,8 +76,17 @@
     export default {
         name: "Navbar",
 
-        methods: {
+        data() {
+            return {
+                visite: false,
+            }
+        },
 
+        methods: {
+            changePage(page) {
+                this.visite = !this.visite;
+                this.$router.push(page);
+            }
         }
     }
 </script>
