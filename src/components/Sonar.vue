@@ -11,6 +11,7 @@
                 <b-col cols="10" style="bottom: 20px">
                     <input @click="$router.push('/infos')" type="button" class="mb-5" style="background-color: #65FFF9; width: 100%; font: Bold 18px/20px Gotham; border: 0; height: 40px; padding-top: 10px" value="Se rendre au Centre">
                     <input type="button" style="background-color: #65FFF9; width: 100%; font: Bold 18px/20px Gotham; border: 0; height: 40px; padding-top: 10px" value="Acheter un billet">
+                    <input type="button" style="background-color: #65FFF9; width: 100%; border: 0; height: 40px; padding-top: 10px" value="TEST">
                 </b-col>
             </b-row>
         </template>
