@@ -13,8 +13,8 @@
                 </div>
 
                 <div>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Les plans de chaque exposition sont disponibles sur place juste avant de commencer la visite. Il faut compter 1h30 en moyenne pour parcourir toutes les oeuvres d’une exposition.
+                    Pour bien visiter ensemble, en toute sécurité, il est interdit de consommer de la nourriture sur le site du Centre. En cette période de COVID-19, comme dans tout espace ouvert au public, les gestes barrières et la distance physique devront être respectés. Des masques sont en ventes à l’accueil.
                 </div>
 
                 <input type="button" style="background-color: #65FFF9; width: 30%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Billeterie">

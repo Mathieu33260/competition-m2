@@ -37,8 +37,10 @@
                             <b>Cyrus Kabiru</b>
                         </div>
 
-                        <div style="font-size: 80%">
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                        <div style="font-size: 80%; background-color: white">
+                            Né en 1984 à Nairobi, où il vit et travaille, Cyrus Kabiru est un plasticien autodidacte pluridisciplinaire. Son travail oscille entre peinture et sculpture, qu’il réalise principalement à partir de déchets et d’objets trouvés dans les rues de Nairobi.
+                            Sa série de lunettes sculpturales C-Stunners lui a permis en 2011 d’attirer l’attention du monde de l’art et du design. Depuis cette dernière série, Cyrus Kabiru ne cesse de repousser les limites de la sculpture, du design, de la peinture et de la photographie.
+                            Il a participé à de nombreuses foires, expositions individuelles et collectives, notamment en Afrique du Sud. Il fait partie de Kuona Trust, centre d’art visuel basé à Nairobi et participe à de nombreuses initiatives auprès des communautés locales.
                         </div>
                     </b-col>
                 </b-row>
@@ -50,7 +52,7 @@
                 <b class="align-self-end" style="font: Bold 60px Gotham; line-height: 150px">Dernières actualités</b>
             </b-col>
 
-            <b-col cols="3" style="border-right: 10px solid #65FFF9; border-bottom: 10px solid #65FFF9; bottom: 35%; height: 110%; margin-right: 30px;">
+            <b-col cols="3" style="z-index: -100; border-right: 10px solid #65FFF9; border-bottom: 10px solid #65FFF9; bottom: 35%; height: 110%; margin-right: 30px;">
 
             </b-col>
         </b-row>
@@ -60,10 +62,10 @@
                 <img src="../assets/Legendes_urbainesph_F_Deval_34_format_a5.png" style="width: 100%; height: auto">
                 <b class="mt-3" style="color: #65FFF9">#<span style="font: Bold 20px/22px Gotham; color: #C4C4C4;">Redécouvrir</span></b>
                 <div class="mt-3" style="font: Bold 20px/22px Gotham;">
-                    Visite virtuelle de l'exposition
+                    Légendes urbaines
                 </div>
                 <div class="mt-3">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Dans le cadre de la 3e saison street art organisée par la ville de bordeaux, la base sous-marine accueille, jusqu’au 16 septembre 2018, l’exposition légendes urbaines. Une plongée dans l’art urbain à travers des œuvres d’artistes reconnus ou émergents
                 </div>
                 <input @click="$router.push('/virtuelle')" class="mt-3" type="button" style="background-color: #65FFF9; width: 50%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Découvrir">
             </b-col>
@@ -75,7 +77,7 @@
                     Baloji
                 </div>
                 <div class="mt-3">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Aujourd’hui, Baloji en est à son troisième album, "137 Avenue Kaniama", voyage au travers des styles qu’il affectionne et ne cesse d’explorer, entre musique traditionnelle africaine et musique afro-américaine (hip-hop, soul, funk, jazz). Il était évident pour nous d’aller à sa rencontre pour parler création artistique, double culture et rap.
                 </div>
                 <input @click="$router.push('/expo/1')" class="mt-3" type="button" style="background-color: #65FFF9; width: 50%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Découvrir">
             </b-col>
@@ -84,10 +86,10 @@
                 <img src="../assets/Digital_Abysses_Ph_F_Deval_55_format_a5.png" style="width: 100%; height: auto">
                 <b class="mt-3" style="color: #65FFF9">#<span style="font: Bold 20px/22px Gotham; color: #C4C4C4;">Immersion</span></b>
                 <div class="mt-3" style="font: Bold 20px/22px Gotham;">
-                    Visite immersive
+                    Visite virtuelles
                 </div>
                 <div class="mt-3">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Disponible depuis peu, les visites virtuelles vous permettent de découvrir ou de redécouvrir d’anciennes expositions.
                 </div>
                 <input @click="$router.push('/visite')" class="mt-3" type="button" style="background-color: #65FFF9; width: 50%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Découvrir">
             </b-col>
