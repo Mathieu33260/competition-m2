@@ -2,7 +2,9 @@
     font-family: 'Gotham';
     font-style: normal;
     font-weight: 400;
-    src: url('../font/Gotham-Font/GothamBold.ttf') format('truetype');
+    src: url('../font/Gotham-Font/GothamBold.ttf');
+    src: local('Gotham'), local('Gotham'),
+    url('../font/Gotham-Font/GothamBold.ttf') format('truetype'); /* Safari, Android, iOS */
 }
 
 
