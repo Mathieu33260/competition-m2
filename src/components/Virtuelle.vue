@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-row>
+        <b-row class="mt-5">
 
             <b-col cols="6" class="d-flex flex-column justify-content-around p-5">
                 <div style="font: Bold 20px/22px Gotham;">

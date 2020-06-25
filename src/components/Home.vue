@@ -1,5 +1,5 @@
 <template>
-    <div style="margin-top: 250px">
+    <div>
         <b-row class="mt-5">
             <b-col cols="6">
                 <img src="../assets/home1.png" draggable="false" style="width: 100%; margin-top: 40px;">

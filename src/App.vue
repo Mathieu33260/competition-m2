@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Navbar v-if="!$store.state.isSonar"></Navbar>
-    <router-view></router-view>
+    <router-view style="margin-top: 250px"></router-view>
     <b-row v-if="!$store.state.isSonar" style="border-bottom: 1px solid white; background-color: #65FFF9" class="pt-5 pb-4">
       <b-col cols="4" class="d-flex justify-content-between ml-5">
         <div style="width: 50%; max-height: 50px">
