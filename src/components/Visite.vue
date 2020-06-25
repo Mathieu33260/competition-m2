@@ -22,7 +22,9 @@
                     </div>
 
                     <div class="mt-4" style="font-size: 80%">
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        Disponible depuis peu, découvrez les lunettes connectées à travers une expérience immersive. Que vous soyez seul ou en groupe, les lunettes sont faites pour vous.
+                        Les lunettes connectées fonctionnent en réalité augmentée, c’est à dire que des éléments visuels viennent se superposer avec la réalité. Il est possible d’interagir avec les lunettes pour poser des questions sur les oeuvres présentes sur place ou sur un artiste en particulier. A la manière d’un guide lors d’une visite en musée, vous en apprendrez beaucoup sur les oeuvres de l’exposition et sur la démarche entreprise par les différents artistes.
+                        (a dupliquer pour combler l’espace)
                     </div>
 
                     <div class="mt-5 d-flex flex-column justify-content-between" style="width: 60%; height: 50%; border-left: 10px solid #65FFF9;">

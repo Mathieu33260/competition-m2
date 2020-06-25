@@ -126,7 +126,7 @@
                         <span style="color: #65FFF9">04.</span> <b>Redécouvrir plus tard l’exposition virtuelle en ligne</b>
                     </div>
                     <div style="width: 20%; height: 100%; border-right: 10px solid #65FFF9;">
-                        <input type="button" style="background-color: #65FFF9; width: 100%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Billeterie">
+                        <input type="button" style="background-color: #65FFF9; width: 100%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Billetterie">
                     </div>
                 </div>
             </b-col>

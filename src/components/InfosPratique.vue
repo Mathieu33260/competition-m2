@@ -17,7 +17,7 @@
                     Pour bien visiter ensemble, en toute sécurité, il est interdit de consommer de la nourriture sur le site du Centre. En cette période de COVID-19, comme dans tout espace ouvert au public, les gestes barrières et la distance physique devront être respectés. Des masques sont en ventes à l’accueil.
                 </div>
 
-                <input type="button" style="background-color: #65FFF9; width: 30%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Billeterie">
+                <input type="button" style="background-color: #65FFF9; width: 30%; font: Bold 16px Gotham; border: 0; height: 40px; padding-top: 10px" value="Billetterie">
             </b-col>
 
             <b-col cols="6">

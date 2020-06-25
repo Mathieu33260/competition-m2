@@ -37,7 +37,7 @@ const routes = [
   { path: '/visite', component: Visite },
   { path: '/centre', component: LeCentre },
   { path: '/infos', component: InfosPratique },
-  { path: '/billeterie', component: Billeterie },
+  { path: '/billetterie', component: Billeterie },
   { path: '/virtuelle', component: Virtuelle },
   { path: '/sonar', component: Sonar },
 ]

@@ -47,8 +47,8 @@
                         <div style="margin-left: 42px">
                             <b style="cursor: pointer" @click="$router.push('/centre')">Le Centre</b>
                         </div>
-                        <div style="margin-left: 42px">
-                            <b style="background-color: #65FFF9">Billeterie</b>
+                        <div style="margin-left: 42px;">
+                            <b style="background-color: #65FFF9; border-right: 4px solid #65FFF9; border-top: 4px solid #65FFF9;">Billetterie</b>
                         </div>
                     </div>
 
