@@ -44,16 +44,19 @@
                         <div style="margin-left: 42px">
                             <b style="cursor: pointer" @click="visite = !visite">Visite</b>
                             <div v-if="visite" class="mt-2 pt-2 pl-2" style="background-color: white; border-top: 5px solid #65FFF9; border-left: 5px solid #65FFF9; position: absolute">
-                                <div style="cursor: pointer" @click="changePage('/visite')">
+                                <div style="cursor: pointer" @click="changePage('/visite')" class="itemmenu">
                                     Visite immersive
                                 </div>
-                                <div style="cursor: pointer" @click="changePage('/virtuelle')" class="mt-2">
+                                <div style="cursor: pointer" @click="changePage('/virtuelle')" class="mt-2 itemmenu">
                                     Visite virtuelle
                                 </div>
-                                <div style="cursor: pointer" @click="changePage('/infos')" class="mt-2">
-                                     Tarifs
+                                <div style="cursor: pointer" @click="changePage('/infos')" class="mt-2 itemmenu">
+                                    Infos pratiques
                                 </div>
-                                <div style="cursor: pointer" class="mt-2">
+                                <div style="cursor: pointer" @click="changePage('/infos')" class="mt-2 itemmenu">
+                                    Tarifs
+                                </div>
+                                <div style="cursor: pointer" class="mt-2 itemmenu">
                                     Accessibilité
                                 </div>
                             </div>
@@ -92,5 +95,7 @@
 </script>
 
 <style scoped>
-
+    .itemmenu:hover {
+        background-color: #65FFF9;
+    }
 </style>

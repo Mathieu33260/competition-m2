@@ -19,7 +19,7 @@
                         Un peu d'histoire
                     </div>
 
-                    <div style="font-size: 80%">
+                    <div style="font-size: 14px">
                         La base sous-marine de Bordeaux est l’une des cinq bases construites sur le territoire français par les Allemands au cours de la Seconde Guerre mondiale, elle est à inclure dans l’ensemble hétérogène du Mur de l’Atlantique1. Cette fortification était considérée par Adolf Hitler (1889-1945) comme un véritable outil de propagande du IIIe Reich.
                         <br><br>Le Führer avait imaginé qu’elle durerait mille ans, bien que les travaux engagés en 1940 n’arrivèrent jamais à leur terme. L’occupation du littoral français par les troupes nazies se traduit dans les grands ports par la construction de gigantesques abris bétonnés destinés à la protection de la précieuse force sous-marine italo-allemande.
                         <br><br>Entre décembre 1940 et avril 1941, les chantiers supervisés par l’Ot-Einsatzgruppe West, branche de l’Organisation TODT affiliée à la France, et la Kriegsmarine sont initiés dans les ports stratégiques de Brest, Lorient, Saint-Nazaire et La Rochelle. À Bordeaux, les travaux débutent plus tardivement en septembre 1941. L’emplacement du port et ses bassins à flot situés au nord de la ville dans le quartier populaire de Bacalan paraît alors évident. En effet, depuis l’été 1940, des sous-marins italiens stationnent dans le bassin à flot n° 1 qui constitue alors, la première base bordelaise appelée « Betasom2 ».
@@ -53,7 +53,7 @@
                     Le Centre
                 </div>
 
-                <div style="font-size: 80%">
+                <div style="font-size: 14px">
                     Depuis 2000, la Ville de Bordeaux développe dans les espaces d’exposition de l’annexe, équipement phare de la politique culturelle, une programmation artistique résolument tournée vers les formes émergentes et emblématiques de la création contemporaine. Trois expositions y sont proposées chaque année qui attirent plus de 100000 visiteurs. Ces expositions ont pour ambition de révéler l’architecture de ce bâtiment atypique grâce à l’intervention d’artistes contemporains confirmés et émergents. 2020 marque un tournant dans l’histoire de la Base sous-marine avec l’arrivée de la société Culturespace et de ses Bassins de Lumières. Cette cohabitation révèle de grands enjeux communicationnels pour les espaces d’expositions municipaux.
                 </div>
 

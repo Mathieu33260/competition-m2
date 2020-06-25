@@ -18,8 +18,8 @@
                             <b>Cyrus Kabiru</b>
                         </div>
 
-                        <div style="font-size: 80%">
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                        <div style="font-size: 14px">
+                            Né en 1984 à Nairobi, où il vit et travaille, Cyrus Kabiru est un plasticien autodidacte pluridisciplinaire. Son travail oscille entre peinture et sculpture, qu’il réalise principalement à partir de déchets et d’objets trouvés dans les rues de Nairobi. Sa série de lunettes sculpturales C-Stunners lui a permis en 2011 d’attirer l’attention du monde de l’art et du design. Depuis cette dernière série, Cyrus Kabiru ne cesse de repousser les limites de la sculpture, du design, de la peinture et de la photographie. Il a participé à de nombreuses foires, expositions individuelles et collectives, notamment en Afrique du Sud. Il fait partie de Kuona Trust, centre d’art visuel basé à Nairobi et participe à de nombreuses initiatives auprès des communautés locales.
                         </div>
                     </b-col>
                 </b-row>
