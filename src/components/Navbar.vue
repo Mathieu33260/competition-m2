@@ -28,7 +28,7 @@
 
             </b-col>
 
-            <b-col cols="6" style="border-right: 10px solid #65FFF9; height: 150px" class="d-flex align-items-center">
+            <b-col cols="6" style="border-right: 10px solid #65FFF9; height: 100px" class="d-flex align-items-center">
                 <img src="./../assets/logocentre.png" style="height: 80px; margin-left: 140px; cursor: pointer"
                      @click="$router.push('/')"
                 />
