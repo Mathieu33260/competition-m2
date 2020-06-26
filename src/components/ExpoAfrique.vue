@@ -4,7 +4,7 @@
             <b-col cols="6" class="pl-5">
                 <div class="d-flex flex-column justify-content-around">
 
-                    <b class="mt-3" style="color: #65FFF9">#<span style="font: Bold 20px/22px Gotham; color: black">ProchaineExposition</span></b>
+                    <b class="mt-3" style="color: #65FFF9">#<span style="font: Bold 20px/22px Gotham; color: black">EnCeMoment</span></b>
 
                     <div style="font: Bold 40px/66px Gotham;" class="mb-2 mt-3">
                         L’Afrique est à l’honneur
@@ -14,7 +14,7 @@
                         Du 3 février au 26 juin 2021
                     </div>
 
-                    <div style="font-size: 80%">
+                    <div style="font-size: 14px">
                         Africa2020 est un projet panafricain et pluridisciplinaire, centrée sur l'innovation dans les arts, les sciences, les technologies, l'entrepreneuriat et l'économie. L'éducation sera une question transversale pour le partage et la transmission de savoirs. Cette Saison inédite favorisera les mobilités, mettra à l'honneur les femmes dans tous les secteurs d'activité et ciblera en priorité la jeunesse. L'ambition d'Africa2020 est de créer un mouvement d'émancipation global à travers un engagement durable bâti autour des valeurs de la citoyenneté.
                         <br><br>L’ Afrique est plus qu’un lieu de divertissement. Le but de cette exposition est de regarder et comprendre le monde d’un point de vue africain. On parle de l’expérience et du quotidien d’1,2 milliard de personnes réparties dans 54 pays, qui interagissent avec le monde qui les entoure. « Les autres habitants de la planète sont confrontés aux mêmes défis » souligne Cyrus Kabiru. Raison pour laquelle tous les projets proposés sont panafricains et élaborés en partenariat entre France et Afrique.
                         <br><br>L’événement a été développé à l’initiative du président Emmanuel Macron mais le but n’est « ni de régler les différends de certains pays avec la France ni d’assurer le rayonnement de la France en Afrique » insiste N’Goné Fall. Que du contraire. C’est l’Afrique dans sa multiplicité de langues (anglais, portugais, français, etc.) et d’héritages qui se donnera à voir et bâtira des ponts avec 16 ou 17 QG répartis dans toute la France et les DomTom: Cayenne, Fort-de-France, Lyon, Nantes, Marseille, Paris, Reims,… du 1er juin au 15 décembre 2020.
