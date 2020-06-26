@@ -34,10 +34,10 @@
                 />
             </b-col>
 
-            <b-col cols="6">
+            <b-col cols="6" class="d-flex flex-column justify-content-center">
                 <div class="d-flex flex-column" style="margin-right: 100px">
 
-                    <div class="d-flex justify-content-end" style="margin-top: 60px">
+                    <div class="d-flex justify-content-end" >
                         <div style="margin-left: 42px">
                             <b style="cursor: pointer" @click="$router.push('/expo')">Expositions</b>
                         </div>
